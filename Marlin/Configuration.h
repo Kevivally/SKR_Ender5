@@ -471,9 +471,9 @@
 
 // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 // Creality Ender-3
-#define DEFAULT_Kp 21.73
-#define DEFAULT_Ki 1.54
-#define DEFAULT_Kd 76.55
+#define DEFAULT_Kp 16.81
+#define DEFAULT_Ki 1.21
+#define DEFAULT_Kd 58.23
 
 // Ultimaker
 //#define DEFAULT_Kp 22.2
@@ -893,7 +893,7 @@
  *   #define Y_PROBE_OFFSET_FROM_EXTRUDER 10
  *
  *      +-- BACK ---+
- *      |           |
+ *      |            |
  *    L |    (+) P  | R <-- probe (20,20)
  *    E |           | I
  *    F | (-) N (+) | G <-- nozzle (10,10)
